@@ -2,9 +2,6 @@
 
 > End-to-end machine learning project to predict whether a hotel booking will be cancelled, comparing Decision Tree, Random Forest and five boosting algorithms (AdaBoost, Gradient Boosting, XGBoost, LightGBM, CatBoost).
 
-**Project by:** Creative Institute of Data Science
-**Author:** `<Your Name>`
-
 ---
 
 ## 📌 Table of Contents
