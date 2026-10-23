@@ -307,6 +307,6 @@ Accuracy can be misleading on **imbalanced data**, ignores the **cost of false n
 ## 👤 Author
 
 **`<Parth N Lathiya>`**
-📧 `<lathiyaparth2004@gmail.com>` | 🔗 [LinkedIn]([https://linkedin.com/in/your-profile](https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2BtrYq52vTbiak41C%2FzQHCg%3D%3D)) | 💻 [GitHub](https://github.com/lathiyaparth)
+📧 `<lathiyaparth2004@gmail.com>` | 🔗 [LinkedIn](https://linkedin.com/in/your-profile](https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2BtrYq52vTbiak41C%2FzQHCg%3D%3D)) | 💻 [GitHub](https://github.com/lathiyaparth)
 
 ⭐ If you found this project useful, please star the repository!
