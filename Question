@@ -1,0 +1,181 @@
+# Hotel Booking Cancellation Prediction — Project Questions
+
+**Prepared by:** Lathiya Parth N.
+
+## 1. Data Loading & Understanding
+
+1. Load the dataset and display first 5 rows.
+2. Find total number of rows and columns.
+3. Display all column names and data types.
+
+## 2. Data Cleaning
+
+4. Find missing values in each column.
+5. Calculate missing value percentage.
+6. Handle missing values using suitable techniques.
+7. Find duplicate records.
+8. Remove unnecessary duplicate records.
+9. Check whether any booking has:
+   - Adults = 0
+   - Children = 0
+   - Babies = 0
+10. Create `total_guests`.
+11. Find and handle invalid bookings.
+
+## 3. Outlier Analysis
+
+12. Find outliers in numerical columns using IQR.
+13. Analyze outliers in:
+    - `adr`
+    - `lead_time`
+    - `stays_in_week_nights`
+    - `stays_in_weekend_nights`
+
+## 4. Feature Engineering
+
+14. Create `total_stay`.
+15. Create `is_family`.
+16. Create `room_changed` using reserved and assigned room type.
+17. Create proper arrival date using year, month and day columns.
+18. Create useful date-based features.
+
+## 5. Exploratory Data Analysis (EDA)
+
+19. Find cancellation percentage.
+20. Check whether the target variable is balanced or imbalanced.
+21. Analyze cancellation rate by hotel type.
+22. Analyze cancellation rate by market segment.
+23. Analyze cancellation rate by customer type.
+24. Analyze cancellation rate by deposit type.
+25. Analyze `lead_time` vs cancellation.
+26. Analyze `adr` vs cancellation.
+27. Analyze special requests vs cancellation.
+28. Analyze previous cancellations vs current cancellation.
+29. Analyze repeated guests vs cancellation.
+30. Find top countries by booking count.
+31. Find cancellation percentage by country.
+
+## 6. Data Preparation
+
+32. Identify categorical and numerical columns.
+33. Identify unnecessary columns.
+34. Identify possible data leakage columns.
+35. Remove data leakage before model training.
+36. Encode categorical variables using suitable encoding.
+37. Separate features X and target y.
+38. Split data into training and testing datasets.
+
+## 7. Decision Tree & Random Forest
+
+39. Build a Decision Tree model.
+40. Calculate Decision Tree:
+    - Accuracy
+    - Precision
+    - Recall
+    - F1 Score
+    - ROC-AUC
+41. Check Decision Tree overfitting using train and test accuracy.
+42. Build a Random Forest model.
+43. Compare Random Forest with Decision Tree.
+
+## 8. AdaBoost & Gradient Boosting
+
+44. Build an AdaBoost model.
+45. Tune:
+    - `n_estimators`
+    - `learning_rate`
+46. Compare AdaBoost with Decision Tree.
+47. Build a Gradient Boosting model.
+48. Tune:
+    - `n_estimators`
+    - `learning_rate`
+    - `max_depth`
+49. Compare AdaBoost and Gradient Boosting.
+
+## 9. XGBoost, LightGBM & CatBoost
+
+50. Build an XGBoost model.
+51. Tune:
+    - `n_estimators`
+    - `learning_rate`
+    - `max_depth`
+    - `gamma`
+    - `subsample`
+    - `colsample_bytree`
+    - `reg_alpha`
+    - `reg_lambda`
+52. Build a LightGBM model.
+53. Tune:
+    - `n_estimators`
+    - `learning_rate`
+    - `num_leaves`
+    - `max_depth`
+54. Build a CatBoost model.
+55. Train CatBoost using categorical features.
+56. Tune:
+    - `iterations`
+    - `learning_rate`
+    - `depth`
+    - `l2_leaf_reg`
+
+## 10. Model Comparison & Validation
+
+57. Calculate training time for every model.
+58. Create a comparison table for all models.
+59. Compare:
+    - Train Accuracy
+    - Test Accuracy
+    - Precision
+    - Recall
+    - F1 Score
+    - ROC-AUC
+    - Training Time
+60. Create Confusion Matrix for all major models.
+61. Perform 5-Fold Cross Validation.
+62. Compare Cross Validation scores.
+
+## 11. Hyperparameter Tuning
+
+63. Perform hyperparameter tuning for:
+    - XGBoost
+    - LightGBM
+    - CatBoost
+64. Find the best parameters for each tuned model.
+65. Compare model performance before and after tuning.
+
+## 12. Feature Importance & ROC Analysis
+
+66. Find feature importance.
+67. Display Top 10 important features.
+68. Plot ROC Curve for all boosting models.
+69. Compare ROC-AUC values.
+
+## 13. Final Model Selection & Prediction
+
+70. Find the best performing model.
+71. Check whether the best model is overfitting.
+72. Predict cancellation for new booking data.
+73. Calculate cancellation probability.
+74. Compare Decision Tree, Random Forest, AdaBoost, Gradient Boosting, XGBoost, LightGBM and CatBoost.
+
+## 14. Conclusion & Business Insights
+
+75. Write the final conclusion.
+76. Mention the best model and justify your selection.
+77. Write five important business insights from the dataset.
+
+## 15. Theory Questions
+
+78. Explain the difference between Bagging and Boosting.
+79. Explain AdaBoost vs Gradient Boosting.
+80. Explain Gradient Boosting vs XGBoost.
+81. Explain XGBoost vs LightGBM.
+82. Explain XGBoost vs CatBoost.
+83. Explain LightGBM vs CatBoost.
+84. Explain `learning_rate`.
+85. Explain `n_estimators`.
+86. Explain `gamma` in XGBoost.
+87. Explain `reg_alpha` and `reg_lambda`.
+88. Explain `num_leaves` in LightGBM.
+89. Explain `iterations` in CatBoost.
+90. Explain why the highest accuracy model is not always the best model.
